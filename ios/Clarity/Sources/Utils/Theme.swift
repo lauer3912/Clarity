@@ -124,6 +124,7 @@ extension Font {
     static let clarityCaption2 = Font.system(size: 11, weight: .regular, design: .default)
     
     // Legacy names for compatibility
+    static let clarityCaption = clarityCaption1
     static let clarityTitle = clarityTitle1
     static let clarityMono = Font.system(size: 48, weight: .light, design: .monospaced)
     static let clarityMonoSmall = Font.system(size: 14, weight: .regular, design: .monospaced)
