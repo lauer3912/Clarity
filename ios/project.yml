@@ -25,6 +25,8 @@ targets:
         type: group
       - path: Clarity/Assets.xcassets
         type: group
+        excludes:
+          - "**/Contents.json"
     settings:
       base:
         INFOPLIST_FILE: Clarity/Info.plist
