@@ -1,4 +1,4 @@
-name: Ustia
+name: UstiaGo
 options:
   bundleIdPrefix: com.ggsheng
   deploymentTarget:
@@ -17,20 +17,20 @@ settings:
     CODE_SIGN_ENTITLEMENTS: ""
 
 targets:
-  Ustia:
+  UstiaGo:
     type: application
     platform: iOS
     sources:
-      - path: Ustia/Sources
+      - path: UstiaGo/Sources
         type: group
-      - path: Ustia/Assets.xcassets
+      - path: UstiaGo/Assets.xcassets
         type: group
         excludes:
           - "**/Contents.json"
     settings:
       base:
-        INFOPLIST_FILE: Ustia/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.ggsheng.Ustia
+        INFOPLIST_FILE: UstiaGo/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.ggsheng.UstiaGo
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor

@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
-    <string>Ustia</string>
+    <string>UstiaGo</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -50,13 +50,13 @@
     
     <!-- HealthKit -->
     <key>NSHealthShareUsageDescription</key>
-    <string>Ustia 需要读取健康数据来追踪您的活动水平和专注时的心率变化。</string>
+    <string>UstiaGo 需要读取健康数据来追踪您的活动水平和专注时的心率变化。</string>
     <key>NSHealthUpdateUsageDescription</key>
-    <string>Ustia 需要记录您的专注活动到健康应用，帮助您全面了解健康状况。</string>
+    <string>UstiaGo 需要记录您的专注活动到健康应用，帮助您全面了解健康状况。</string>
     
     <!-- Notifications -->
     <key>NSUserNotificationsUsageDescription</key>
-    <string>Ustia 需要发送通知来提醒您专注时段开始和结束，以及达成成就。</string>
+    <string>UstiaGo 需要发送通知来提醒您专注时段开始和结束，以及达成成就。</string>
     
     <!-- Siri -->
     <key>NSSiriUsageDescription</key>
