@@ -21,15 +21,15 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: Clarity/Sources
+      - path: Ustia/Sources
         type: group
-      - path: Clarity/Assets.xcassets
+      - path: Ustia/Assets.xcassets
         type: group
         excludes:
           - "**/Contents.json"
     settings:
       base:
-        INFOPLIST_FILE: Clarity/Info.plist
+        INFOPLIST_FILE: Ustia/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.ustia.app
         CODE_SIGN_STYLE: Automatic
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
