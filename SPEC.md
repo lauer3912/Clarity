@@ -1,4 +1,4 @@
-# Clarity — Product Specification
+# Ustia — Product Specification
 
 > Screen Time & Focus Companion for iPhone + Mac
 
@@ -8,11 +8,11 @@
 
 **Tagline:** _Reclaim your attention._
 
-Clarity is a mindful screen time companion that helps you understand your phone habits without the creepy surveillance feel. Where other apps scream "YOU'RE DOING BADLY," Clarity whispers "Here's what's happening, and here's how to take control — on your terms."
+Ustia is a mindful screen time companion that helps you understand your phone habits without the creepy surveillance feel. Where other apps scream "YOU'RE DOING BADLY," Ustia whispers "Here's what's happening, and here's how to take control — on your terms."
 
 The experience is **calm, beautiful, and empowering**. Think of it as a meditation app that happens to track your screen time, not a surveillance tool that happens to have a nice UI.
 
-The companion Mac app transforms your Mac into a "Focus Sanctuary" — when you're working, Clarity on your Mac quietly blocks distracting sites, and you control it all from your iPhone. The feeling: **your tools are working together to protect your attention**.
+The companion Mac app transforms your Mac into a "Focus Sanctuary" — when you're working, Ustia on your Mac quietly blocks distracting sites, and you control it all from your iPhone. The feeling: **your tools are working together to protect your attention**.
 
 ---
 
@@ -71,8 +71,8 @@ Destructive:          #F87171 (soft red)
 ## 3. App Architecture
 
 ### Platforms
-1. **Clarity iOS** — Main app (SwiftUI, iOS 17+)
-2. **Clarity Mac** — Menu bar app (AppKit + SwiftUI, macOS 14+)
+1. **Ustia iOS** — Main app (SwiftUI, iOS 17+)
+2. **Ustia Mac** — Menu bar app (AppKit + SwiftUI, macOS 14+)
 
 ### Shared
 - CloudKit for data sync (private database)
@@ -181,7 +181,7 @@ WindDownActivity
 - Dropdown: Today's stats summary
 - Quick start focus session
 - Blocked sites/apps count
-- "Open Clarity iOS" link
+- "Open Ustia iOS" link
 - Quit
 
 ---
@@ -276,7 +276,7 @@ WindDownActivity
 
 ## 9. Competitive Differentiation
 
-| Competitor | Their Weakness | Clarity's Edge |
+| Competitor | Their Weakness | Ustia's Edge |
 |---|---|---|
 | Screen Time (Apple) | No features, no motivation | Beautiful UI + gamification |
 | Digital Detox | Ugly, invasive, creepy | Calm, empowering design |
@@ -284,7 +284,7 @@ WindDownActivity
 | Forest | Game-y, not serious | Focused, calm, non-game |
 | BeFocused | Basic, utilitarian | Premium design + insights |
 
-Clarity's unfair advantage: **design sensibility of a top-100 App Store app** + **Mac companion** that no other screen time app offers well.
+Ustia's unfair advantage: **design sensibility of a top-100 App Store app** + **Mac companion** that no other screen time app offers well.
 
 ---
 
